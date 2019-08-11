@@ -2,7 +2,7 @@
 
 $app->on('admin.init', function () {
   // add custom theme
-  $this->helper('admin')->addAssets('theme:assets/styles.css');
+  $this->helper('admin')->addAssets('cockpitthememinimal:assets/styles.css');
 
   // disable time widget in dashboard
   $this->on('admin.dashboard.widgets', function($widgets) {
