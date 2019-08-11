@@ -4,6 +4,11 @@ body,
   background: #fdfdfd;
 }
 
+/* limit container width */
+.uk-container {
+  max-width: 1200px;
+}
+
 /* change app header colors */
 .app-header {
   background-color: #111;
