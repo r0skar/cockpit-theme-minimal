@@ -1,0 +1,21 @@
+/* set the global bg color*/
+body,
+.dashboard-header-panel{
+  background: #fdfdfd;
+}
+
+/* change app header colors */
+.app-header {
+  background-color: #111;
+  border-top-width: 0 !important;
+}
+
+.app-name,
+.app-modulesbar > li > a {
+  color: #fff;
+}
+
+/* remove the dashboard header panel */
+.dashboard-header-panel {
+  display: none;
+}
