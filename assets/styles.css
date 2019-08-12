@@ -9,6 +9,11 @@ body,
   max-width: 1200px;
 }
 
+/* change footer colors */
+cp-actionbar {
+  background-color: #eee;
+}
+
 /* change app header colors */
 .app-header {
   background-color: #111;
