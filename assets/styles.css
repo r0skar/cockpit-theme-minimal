@@ -4,6 +4,16 @@ body,
   background: #fdfdfd;
 }
 
+/* add more spacing to bottom of page */
+body {
+  padding-bottom: calc(70px + 20vh) !important;
+}
+
+/* set global svg icon color */
+.uk-panel-teaser .uk-svg-adjust {
+  color: #444;
+}
+
 /* limit container width */
 .uk-container {
   max-width: 1200px;
@@ -22,10 +32,40 @@ cp-actionbar {
 
 .app-name,
 .app-modulesbar > li > a {
-  color: #fff;
+  color: #fff !important;
 }
 
 /* remove the dashboard header panel */
 .dashboard-header-panel {
   display: none;
+}
+
+/* change button color */
+.uk-button-primary {
+  background-color: #111 !important;
+}
+
+/* increase main sidebar spacing */
+.app-main > div > div .uk-width-medium-3-4 {
+  padding-right: 5vw;
+}
+
+.app-main > div > div .uk-width-medium-1-4 {
+  padding-left: 5vw;
+}
+
+/* decrease main sidebar font size */
+.app-main > div > div .uk-width-medium-1-4 {
+  font-size: 0.8rem;
+}
+
+.app-main > div > div .uk-width-medium-1-4 .uk-text-large {
+  font-size: 1em;
+  line-height: 19px;
+}
+
+/* adjust label for fields */
+cp-fieldcontainer label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
